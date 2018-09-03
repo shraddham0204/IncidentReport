@@ -1,0 +1,37 @@
+{
+  "name": "incidentReporting",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start --transformer node_modules/react-native-typescript-transformer/index.js --sourceExts ts,tsx",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jshint": "^2.9.5",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-awesome-alerts": "^1.0.7",
+    "react-native-datepicker": "^1.6.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-navigation": "^1.1.444",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-simple-radio-button": "^2.7.1",
+    "react-native-vector-icons": "^4.6.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.31",
+    "@types/react-native": "^0.51.4",
+    "babel-jest": "22.0.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.3",
+    "react-native-typescript-transformer": "^1.1.4",
+    "react-test-renderer": "16.0.0",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
